@@ -1,0 +1,94 @@
+{
+    "description": "Badesteder i københavn",
+    "badesteder": [
+        {
+            "name": "Fisketorvet havnebad",
+            "coordinates": "55.662659611347905,12.563791238877064",
+            "maalgruppe": "multi",
+            "rating": "4.2",
+            "toiletter": "ja",
+            "renlighed": "30",
+            "mennesker": "20",
+            "livredder": "ja",
+            "api-id": 2
+
+        },
+        {
+            "name": "Sluseholmen havnebad",
+            "coordinates": "55.64674537593671,12.554197104231282",
+            "maalgruppe": "familie",
+            "rating": "4.3",
+            "toiletter": "ja",
+            "renlighed": "50",
+            "mennesker": "30",
+            "livredder": "ja",
+            "api-id": 40
+        },
+        {
+            "name": "Islandsbrygge havnebad",
+            "coordinates": "55.668610341441955,12.57759582740384",
+            "maalgruppe": "multi",
+            "rating": "4.2",
+            "toiletter": "ja",
+            "renlighed": "50",
+            "mennesker": "50",
+            "livredder": "ja",
+            "api-id": 1
+        },
+        {
+            "name": "Kalvebod Bølge",
+            "coordinates": "55.66884328466771,12.575503520042572",
+            "maalgruppe": "ung",
+            "rating": "4.6",
+            "toiletter": "ja",
+            "renlighed": "70",
+            "mennesker": "70",
+            "livredder": "nej",
+            "api-id": 161
+        },
+        {
+            "name": "Amagerstrandpark",
+            "coordinates": "55.65478065315048,12.649156086919389",
+            "maalgruppe": "multi",
+            "rating": "4.6",
+            "toiletter": "ja",
+            "renlighed": "80",
+            "mennesker": "60",
+            "livredder": "ja",
+            "api-id": 3
+        },
+        {
+            "name": "Valby strand",
+            "coordinates": "55.637354236191165,12.524758244589746",
+            "maalgruppe": "familie",
+            "rating": "3.9",
+            "toiletter": "ja",
+            "renlighed": "50",
+            "mennesker": "60",
+            "livredder": "ja",
+            "api-id": 164
+        },
+        {
+            "name": "Svanemøllen strand",
+            "coordinates": "55.719893733831576,12.583669694122513",
+            "maalgruppe": "familie",
+            "rating": "4.3",
+            "toiletter": "ja",
+            "renlighed": "50",
+            "mennesker": "70",
+            "livredder": "ja",
+            "api-id": 6
+        },
+        {
+            "name": "Badezone halvandet",
+            "coordinates": "55.69525367589416,12.608580831559639",
+            "maalgruppe": "ung",
+            "rating": "4.5",
+            "toiletter": "nej",
+            "renlighed": "20",
+            "mennesker": "30",
+            "livredder": "nej",
+            "api-id": 128
+        }
+    ]
+}

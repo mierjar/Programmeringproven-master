@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="page">
+            <div class="page1" id="page1">
+
+                <div id="searchbox">
+                    <div id="searchbar">
+                        <input type="text" placeholder="Søg her" id="input">
+                        <div class="anbe">
+                            <a href="#page2" style="text-decoration: none;"><div class="anbefalinger" id="anbefaling_btn">Anbefalinger til dig</div></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="map" class="map"></div>
+
+            </div>
+        </div>
+
+         <div class="page">
+             <div class="page2" id="page2">
+                <div id="searchbar2">
+                    <input type="text" placeholder="Søg her" id="input2">
+                </div>
+                <div class="cardholder">
+                    
+                </div>
+             </div>
+         </div>
+         <div class="page">
+             <div class="page3" id="page3">
+                 <h1 id="test">Hvordan er badestedet lige nu?</h1>
+                 <p id="info">
+                     Hjælp andre med at finde det perfekte
+                     badested ved at anmelde de strande og
+                     havnebade du besøger
+                </p>
+                        <div id="stjerner">
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span>
+                        </div>
+                        <input type="text" placeholder="Skriv anmeldelse her..." id="inputreview">
+                    <h4>Hvormange mennesker befinder sig på stedet lige nu?</h4>
+                    <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                          </div>
+                          <h4>Hvor snavset er badestedet lige nu?</h4>
+                          <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                          </div>
+                    </div>
+            </div>
+            <div class="buttons">
+                <a href="#page1"><div id="button1"></div></a>
+                <a href="#page2"><div id="button2"></div></a>
+                <a href="#page3"><div id="button3"></div></a>
+
+            </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
